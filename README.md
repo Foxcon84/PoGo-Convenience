@@ -32,7 +32,7 @@ This script will create a text replacement shortcut for ALL Perfect IV and Trash
 1. Clone or Download the Repository
 2. Go into the PoGo-Convenince folder
 3. Run the following command:
-```pyhton IVTextSubstitute.py```
+```python IVTextSubstitute.py```
 4. This will now generate a .plist file called: PokemonIVTextSub.plist
 5. Open System Preferences -> Keyboard -> Text
 6. Simply drag and drop the created plist file in Text Replacement window
