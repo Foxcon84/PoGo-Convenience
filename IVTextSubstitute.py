@@ -22,7 +22,12 @@ for ivType in IVTypes:
                 pokemonCPString = cgi.escape(input_pokemon.readline())
                 input_pokemon.close()
                 # Gets Pokemon name
-                pokemonName = pokemon.split()[-1].lower()
+                if pokemon.split()[0] != "029" and pokemon.split()[0] != "032":
+                    pokemonName = pokemon.split()[-1].lower()
+                elif pokemon.split()[0] == "029":
+                    pokemonName = pokemon.split()[2].lower() + "f"
+                else:
+                    pokemonName = pokemon.split()[2].lower() + "m"
                 output.write("\t<dict>\n")
                 output.write("\t\t<key>phrase</key>\n")
                 output.write("\t\t<string>" + pokemonCPString + "</string>\n")

@@ -5,7 +5,7 @@ Repository for search strings in Pokemon Go to search for 100% IV wild pokemon. 
 
 **THIS WILL NOT SHOW EVERY POKEMON THAT WAS POWERED UP.** The strings only show every integer level from 1 to 35, the levels of pokemon you can catch in the wild. If you powered certain pokemon up, and they're higher than level 35 or land on a "half level" e.g. 4.5, they will not show up in the search.
 
-You can use text replacement on iOS to use these strings (or for utilizing macOS and iOS, See**Text Replacement Script using macOS** this allows you to run a script to create all text replacement IV strings). You might be able to use this on certain Android devices but the few that I've tried on have a character limit on text replacement. You might be able to find a way around that though.
+You can use text replacement on iOS to use these strings (or for utilizing macOS and iOS, See **Text Replacement Script using macOS** this allows you to run a script to create all text replacement IV strings). You might be able to use this on certain Android devices but the few that I've tried on have a character limit on text replacement. You might be able to find a way around that though.
 
 iOS text replacement guide:
 1. Open Settings app
@@ -27,8 +27,9 @@ You're only able to use one string at a time. Meaning you can't check multiple p
 
 **Note: This assumes both your iPhone and Mac are signed into using the same apple ID**
 
-This script will create a text replacement shortcut for ALL Perfect IV and Trash IV strings. The Pokémon names for perfect IVs start with **"p"** (ex: pweedle) and the trash IV names start with **"t"** (ex:tpidgey)
+This script will create a text replacement shortcut for ALL Perfect IV and Trash IV strings. The Pokémon names for perfect IVs start with **"p"** (ex: pweedle) and the trash IV names start with **"t"** (ex:tpidgey).
 
+Note: Male Nidoran is named **pnidoranm** and **tnidoranm**. Female Nidoran is named **pnidoranf** and **tnidoranf**.
 1. Clone or Download the Repository
 2. Go into the PoGo-Convenince folder
 3. Run the following command:
